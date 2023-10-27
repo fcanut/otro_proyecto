@@ -1,0 +1,65 @@
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+ul#navigation li {
+    width: 100px;
+}
+ul#navigation li a {
+    display: block;
+    margin-left: -2px;
+    width: 95px;
+    height: 70px;    
+    background-color:#fafafadd;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #000000a0;
+    border-radius: 10px; 
+    -moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+   
+    filter: alpha(opacity=30);
+}
+
+.even1{
+    position: absolute; 
+    top: -200%; /* Centra verticalmente en el contenedor */
+    left: 23%
+  
+  }
+
+/* Estilo para cada elemento del menú */
+ul#navigation .home a {
+    background-image: url(../img/principal.png);
+    
+}
+
+ul#navigation .about a {
+    background-image: url(../img/registro_reservacion.png);
+}
+
+ul#navigation .search a {
+    background-image: url(../img/reservacion.png);
+}
+
+ul#navigation .calendario a {
+    background-image: url(../img/calendario.png);
+}
+
+ul#navigation .podcasts a {
+    background-image: url(../img/tipo_cobro.png);
+}
+
+ul#navigation .rssfeed a {
+    background-image: url(../img/tipo_evento.png);
+}
+
+ul#navigation .photos a {
+    background-image: url(../img/lista_clientes.png);
+}
